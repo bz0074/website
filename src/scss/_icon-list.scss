@@ -1,0 +1,17 @@
+// _icon-list.scss
+// This file contains styles for icons used in the website
+
+// Style for icon container
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+// Style for individual icon
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: #333; 
+  margin-right: 8px;
+}
+=
