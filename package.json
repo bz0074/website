@@ -1,16 +1,19 @@
 {
-  "name": "bootstrap-website",
+  "name": "your-bootstrap-website",
   "version": "1.0.0",
-  "description": "A Bootstrap-based website",
+  "description": "Your Bootstrap-based website",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production --output-path dist" // im using Webpack
   },
-  "author": "Your Name",
+  "author": "Baidaho Zanre",
   "license": "MIT",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.3.0-alpha1",
     "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0" // install Webpack as a devDependency
   }
 }
