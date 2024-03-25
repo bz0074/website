@@ -4,9 +4,9 @@
   "description": "Your Bootstrap-based website",
   "main": "index.html",
   "scripts": {
-    "build": "webpack --mode production --output-path dist" // im using Webpack
+    "build": "webpack --mode production --output-path dist"
   },
-  "author": "Baidaho Zanre",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "@popperjs/core": "^2.11.6",
@@ -14,6 +14,6 @@
     "jquery": "^3.6.0"
   },
   "devDependencies": {
-    "webpack": "^5.0.0" // install Webpack as a devDependency
+    "webpack": "^5.0.0"
   }
 }
